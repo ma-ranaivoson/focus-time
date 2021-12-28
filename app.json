@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "focustime",
+    "name": "FocusTime",
     "slug": "snack-c0db0044-84d8-44f9-bcd0-b858150b3739",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -23,7 +23,9 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.ma.focustime",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"

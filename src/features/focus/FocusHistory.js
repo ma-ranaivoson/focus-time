@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Text, View, StyleSheet, FlatList, SafeAreaView } from 'react-native';
 import { fontSizes, spacing } from '../../utils/sizes';
 import { RoundedButton } from '../../components/RoundedButton';
@@ -42,11 +42,11 @@ export const FocusHistory = ({ focusHistory, onClear }) => {
 const styles = StyleSheet.create({
   historyItem: (status) => ({
     color: status > 1 ? 'red' : 'green',
-    fontSizes: fontSizes.md,
+    fontSize: fontSizes.md,
   }),
   title: {
     color: 'white',
-    fontSizes: fontSizes.md,
+    fontSize: fontSizes.md,
   },
   clearContainer: {
     alignItems: 'center',
